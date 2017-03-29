@@ -1,0 +1,158 @@
+﻿{
+  "home": {
+    "_removeTags": [
+      "script",
+      "style",
+      "#comment",
+      "blockquote"
+    ],
+    "formation": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[1]/td[2]/i"
+    },
+    "tactic": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[2]/td[1]/i"
+    },
+    "style": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[3]/td[1]/i"
+    },
+    "defenceType": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[4]/td[1]/i"
+    },
+    "defence": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[5]/td[1]/i"
+    },
+    "brutality": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[6]/td[1]/i"
+    },
+    "gameFocus": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[7]/td[1]/i"
+    },
+    "opt1": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[8]/td[1]/i"
+    },
+    "opt2": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[8]/td[2]/i"
+    },
+    "strengthRatio": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/td[1]/i/text()"
+    },
+    "teamwork": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[9]/td[1]/i"
+    },
+    "shots": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[10]/td[1]/i"
+    },
+    "corners": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[11]/td[1]/i"
+    },
+    "freeKicks": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[12]/td[1]/i"
+    },
+    "penalty": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[13]/td[1]/i"
+    },
+    "offside": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[14]/td[1]/i"
+    },
+    "forecastStrength": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[16]/td/table/tr/td[contains(@class, 'rdl')][1]/text()[1]"
+    },
+    "forecastStrengthPercent": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[16]/td/table/tr/td[contains(@class, 'rdl')][1]/div"
+    },
+    "actualStrength": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[17]/td/table/tr/td[contains(@class, 'rdl')][1]/text()[1]"
+    },
+    "actualStrengthPercent": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[17]/td/table/tr/td[contains(@class, 'rdl')][1]/div"
+    },
+    "startStrength": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[18]/td/table/tr/td[contains(@class, 'rdl')][1]/text()[1]"
+    },
+    "startStrengthPercent": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[18]/td/table/tr/td[contains(@class, 'rdl')][1]/div"
+    },
+    "strengthInTheBeginning": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[19]/td/table/tr/td[contains(@class, 'rdl')][1]/text()[1]"
+    },
+    "strengthInTheBeginningPercent": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[19]/td/table/tr/td[contains(@class, 'rdl')][1]/div"
+    },
+    "strengthInTheEnd": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[20]/td/table/tr/td[contains(@class, 'rdl')][1]/text()[1]"
+    },
+    "strengthInTheEndPercent": {
+      "_xpath": ".//table[contains(@class, 'tobl wst')]/tr[20]/td/table/tr/td[contains(@class, 'rdl')][1]/div"
+    },
+    "players": {
+      "_xpath": "//div[contains(@id, 'gif_0')]",
+      "_forceArray": true
+    }
+  }
+  //"away": {
+  //   "formation": {
+  //    "_xpath": ""
+  //  },
+  //  "style": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[3]/td[1]/i"
+  //  },
+  //  "tactic": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[2]/td[1]/i"
+  //  },
+  //  "defenceType": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[4]/td[1]/i"
+  //  },
+  //  "defence": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[5]/td[1]/i"
+  //  },
+  //  "brutality": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[6]/td[1]/i"
+  //  },
+  //  "gameFocus": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[7]/td[1]/i"
+  //  },
+  //  "opt1": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[8]/td[1]/i"
+  //  },
+  //  "opt2": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[8]/td[2]/i"
+  //  },
+  //  "strengthRatio": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[9]/td[1]/i"
+  //  },
+  //  "teamwork": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[10]/td[1]/i"
+  //  },
+  //  "shots": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[11]/td[1]/i"
+  //  },
+  //  "corners": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[12]/td[1]/i"
+  //  },
+  //  "freeKicks": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[13]/td[1]/i"
+  //  },
+  //  "penalty": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[14]/td[1]/i"
+  //  },
+  //  "offside": {
+  //    "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[15]/td[1]/i"
+  //  },
+  //  //"startStrength": {
+  //  //  "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[18]/td/table/tbody/tr/td[2]/text()"
+  //  //},
+  //  //"actualStrength": {
+  //  //  "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[19]/td/table/tbody/tr/td[2]/text()"
+  //  //},
+  //  //"strengthInTheBeginning": {
+  //  //  "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[20]/td/table/tbody/tr/td[2]/text()"
+  //  //},
+  //  //"strengthInTheEnd": {
+  //  //  "_xpath": "/html/body/table/tbody/tr[4]/td/table[4]/tbody/tr[21]/td/table/tbody/tr/td[2]/text()"
+  //  //},
+  //  "players": {
+  //    "_xpath": "//div[@class = 'shirt']",
+  //    "_forceArray": true
+  //  }
+  //}
+}
